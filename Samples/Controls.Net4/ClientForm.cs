@@ -339,7 +339,7 @@ namespace Opc.Ua.Sample.Controls
 
                 if (m_masterForm == null)
                 {
-                    m_application.Stop();
+                    //m_application.Stop();
                 }
             }
             catch (Exception exception)

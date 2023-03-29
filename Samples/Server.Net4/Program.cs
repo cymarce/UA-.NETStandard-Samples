@@ -64,7 +64,7 @@ namespace Opc.Ua.Sample
                 }
 
                 // start the server.
-                application.Start(new SampleServer()).Wait();
+                //application.Start(new SampleServer()).Wait();
 
                 // run the application interactively.
                 Application.Run(new ServerForm(application));

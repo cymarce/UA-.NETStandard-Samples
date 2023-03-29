@@ -116,18 +116,17 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClientControls.Net4\UA Client Controls.csproj">
-      <Project>{A247D2EE-14FC-463D-A9BA-6CFF1EF22B7A}</Project>
+      <Project>{a247d2ee-14fc-463d-a9ba-6cff1ef22b7a}</Project>
       <Name>UA Client Controls</Name>
-      <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\Controls.Net4\UA Sample Controls.csproj">
       <Project>{92AE819B-4938-4502-AC32-67063F9893CD}</Project>
       <Name>UA Sample Controls</Name>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\Opc.Ua.Sample\Opc.Ua.Sample.csproj">
-      <Project>{bcb915b6-b5c3-45bc-9c8b-f43008df0c14}</Project>
-      <Name>Opc.Ua.Sample</Name>
+    <ProjectReference Include="..\Server.Net4\UA Sample Server.csproj">
+      <Project>{b109ebae-bb08-40a7-bb9e-7e56b9151b17}</Project>
+      <Name>UA Sample Server</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
